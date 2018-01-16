@@ -1,0 +1,12 @@
+PODS:
+  - AdformAdvertising (2.10.2)
+
+DEPENDENCIES:
+  - AdformAdvertising
+
+SPEC CHECKSUMS:
+  AdformAdvertising: c7a1f687e44096426fef8f91339d09e595bbbda1
+
+PODFILE CHECKSUM: 15570bf48ab3869c62533a6aa144d54c81e11b2f
+
+COCOAPODS: 1.3.1

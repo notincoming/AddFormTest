@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6CE7174BD77BE637A635F7B4F507748D /* Pods-AddFormTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F4D1D414A57BD483CF98C7EF5DD9E959 /* Pods-AddFormTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AB1243F40683A05F97F74AFE106D392 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		FCC8948BDA32592D1F25DB15C5067E69 /* Pods-AddFormTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA40BB09D662D79C5993827C69E0D8E /* Pods-AddFormTest-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		001ACDE089E8C6177927953B8E521650 /* Pods-AddFormTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AddFormTest.release.xcconfig"; sourceTree = "<group>"; };
+		01E589D988BEFB058CFD6C4B83453FE4 /* AFAdOverlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAdOverlay.h; path = AdformAdvertising.framework/Versions/A/Headers/AFAdOverlay.h; sourceTree = "<group>"; };
+		0C5B2D395E97A828EEF0C5DCF1DCD2C9 /* AFBidLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFBidLoader.h; path = AdformAdvertising.framework/Versions/A/Headers/AFBidLoader.h; sourceTree = "<group>"; };
+		2018FAA9B3C81D705ACBEE1A59F0C37F /* AFBidRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFBidRequest.h; path = AdformAdvertising.framework/Versions/A/Headers/AFBidRequest.h; sourceTree = "<group>"; };
+		23E5E3F75FEF3EBCC0007B20A206F61A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		279ADB5B7C3917CDE13C8FFC3FD1C66A /* Pods-AddFormTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AddFormTest.debug.xcconfig"; sourceTree = "<group>"; };
+		36915959EDFE4FB1C2AC0D6D5D862FDD /* Pods_AddFormTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AddFormTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45713AE352DA18756CCBCCDF7E551CC1 /* AFHBConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHBConstants.h; path = AdformAdvertising.framework/Versions/A/Headers/AFHBConstants.h; sourceTree = "<group>"; };
+		57EEE1E8802510EED39B710053B9E44A /* AFBidResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFBidResponse.h; path = AdformAdvertising.framework/Versions/A/Headers/AFBidResponse.h; sourceTree = "<group>"; };
+		5DD07482A8BA699431617F7E865C555A /* AdformSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AdformSDK.h; path = AdformAdvertising.framework/Versions/A/Headers/AdformSDK.h; sourceTree = "<group>"; };
+		5F1E089DF48445CB16A4ECF4D97FB778 /* AFHeaderBiddingSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHeaderBiddingSDK.h; path = AdformAdvertising.framework/Versions/A/Headers/AFHeaderBiddingSDK.h; sourceTree = "<group>"; };
+		621497920B477CA1C1185C15193489FE /* AFKeyValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFKeyValue.h; path = AdformAdvertising.framework/Versions/A/Headers/AFKeyValue.h; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		768302AE63F5ACEACD1D86BC59C0CA87 /* AdformHeaderBidding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AdformHeaderBidding.h; path = AdformAdvertising.framework/Versions/A/Headers/AdformHeaderBidding.h; sourceTree = "<group>"; };
+		7C768AA1F20C69EF11A1D59B5E1778AA /* Pods-AddFormTest-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AddFormTest-frameworks.sh"; sourceTree = "<group>"; };
+		7C80ACA5BA1C90D0C648B0D802F161BC /* Pods-AddFormTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AddFormTest.modulemap"; sourceTree = "<group>"; };
+		868D0754A83A82E59EA8DA9800C11404 /* Pods-AddFormTest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AddFormTest-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8EE9EB20BDA3A8D3AF26D51AE3B3E9A1 /* AFAVPlayerViewControllerPlayback.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAVPlayerViewControllerPlayback.h; path = AdformAdvertising.framework/Versions/A/Headers/AFAVPlayerViewControllerPlayback.h; sourceTree = "<group>"; };
+		8FF826BD4FF2A0A677728FFBC875AAE0 /* AFVideoSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFVideoSettings.h; path = AdformAdvertising.framework/Versions/A/Headers/AFVideoSettings.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2F366E0F6D2AD0D48C1E2F78156B368 /* Pods-AddFormTest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AddFormTest-acknowledgements.plist"; sourceTree = "<group>"; };
+		B24E0170C8F6DCEBBCAC4A36E3C03188 /* AFAdInline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAdInline.h; path = AdformAdvertising.framework/Versions/A/Headers/AFAdInline.h; sourceTree = "<group>"; };
+		BA6D19EFDA9F4DD47C6480123B74C271 /* AdformAdvertising.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AdformAdvertising.h; path = AdformAdvertising.framework/Versions/A/Headers/AdformAdvertising.h; sourceTree = "<group>"; };
+		BAA40BB09D662D79C5993827C69E0D8E /* Pods-AddFormTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AddFormTest-dummy.m"; sourceTree = "<group>"; };
+		D19329715DB7BC5B49A7A19DBC4B68B8 /* AFConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFConstants.h; path = AdformAdvertising.framework/Versions/A/Headers/AFConstants.h; sourceTree = "<group>"; };
+		D3F74BE11B909D6B0E10152E83BDF39E /* Pods-AddFormTest-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AddFormTest-resources.sh"; sourceTree = "<group>"; };
+		DB483F6C6E869E002757879E1389566C /* AFCuePoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFCuePoint.h; path = AdformAdvertising.framework/Versions/A/Headers/AFCuePoint.h; sourceTree = "<group>"; };
+		DCF9ADCBAE86268A858D1744066F0E8D /* AFMPMoviePlayerContentPlayback.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFMPMoviePlayerContentPlayback.h; path = AdformAdvertising.framework/Versions/A/Headers/AFMPMoviePlayerContentPlayback.h; sourceTree = "<group>"; };
+		DD67AEB1DB131A45D7AC490228B745A2 /* AFAdInterstitial.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAdInterstitial.h; path = AdformAdvertising.framework/Versions/A/Headers/AFAdInterstitial.h; sourceTree = "<group>"; };
+		E10043DA42824A872C5F7073B90FF31C /* AFContentPlayback.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFContentPlayback.h; path = AdformAdvertising.framework/Versions/A/Headers/AFContentPlayback.h; sourceTree = "<group>"; };
+		E98288093C503703F708232845FB2584 /* AFVideoPlayerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFVideoPlayerController.h; path = AdformAdvertising.framework/Versions/A/Headers/AFVideoPlayerController.h; sourceTree = "<group>"; };
+		F1EB7FFE13BD1462182AA9A48D667476 /* AdformAdvertising.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AdformAdvertising.framework; sourceTree = "<group>"; };
+		F4D1D414A57BD483CF98C7EF5DD9E959 /* Pods-AddFormTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AddFormTest-umbrella.h"; sourceTree = "<group>"; };
+		FB0C5359080399AC6861561C9FBF1487 /* AFAdHesion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAdHesion.h; path = AdformAdvertising.framework/Versions/A/Headers/AFAdHesion.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D10336D9532B80C1CC5F245EDF339BCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AB1243F40683A05F97F74AFE106D392 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B4D1F1957BE4CB69022242ED52067FE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2C3899CC4FB5850A2D54A3E09EB4224A /* AdformAdvertising */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2C3899CC4FB5850A2D54A3E09EB4224A /* AdformAdvertising */ = {
+			isa = PBXGroup;
+			children = (
+				BA6D19EFDA9F4DD47C6480123B74C271 /* AdformAdvertising.h */,
+				768302AE63F5ACEACD1D86BC59C0CA87 /* AdformHeaderBidding.h */,
+				5DD07482A8BA699431617F7E865C555A /* AdformSDK.h */,
+				FB0C5359080399AC6861561C9FBF1487 /* AFAdHesion.h */,
+				B24E0170C8F6DCEBBCAC4A36E3C03188 /* AFAdInline.h */,
+				DD67AEB1DB131A45D7AC490228B745A2 /* AFAdInterstitial.h */,
+				01E589D988BEFB058CFD6C4B83453FE4 /* AFAdOverlay.h */,
+				8EE9EB20BDA3A8D3AF26D51AE3B3E9A1 /* AFAVPlayerViewControllerPlayback.h */,
+				0C5B2D395E97A828EEF0C5DCF1DCD2C9 /* AFBidLoader.h */,
+				2018FAA9B3C81D705ACBEE1A59F0C37F /* AFBidRequest.h */,
+				57EEE1E8802510EED39B710053B9E44A /* AFBidResponse.h */,
+				D19329715DB7BC5B49A7A19DBC4B68B8 /* AFConstants.h */,
+				E10043DA42824A872C5F7073B90FF31C /* AFContentPlayback.h */,
+				DB483F6C6E869E002757879E1389566C /* AFCuePoint.h */,
+				45713AE352DA18756CCBCCDF7E551CC1 /* AFHBConstants.h */,
+				5F1E089DF48445CB16A4ECF4D97FB778 /* AFHeaderBiddingSDK.h */,
+				621497920B477CA1C1185C15193489FE /* AFKeyValue.h */,
+				DCF9ADCBAE86268A858D1744066F0E8D /* AFMPMoviePlayerContentPlayback.h */,
+				E98288093C503703F708232845FB2584 /* AFVideoPlayerController.h */,
+				8FF826BD4FF2A0A677728FFBC875AAE0 /* AFVideoSettings.h */,
+				3EF674ADC929CD527243F088AA0641B5 /* Frameworks */,
+			);
+			path = AdformAdvertising;
+			sourceTree = "<group>";
+		};
+		327E52482B3D22D655E5AEC20FCE2388 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				86D14F669FB8D4B880A0E5F34FA0116C /* Pods-AddFormTest */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3EF674ADC929CD527243F088AA0641B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1EB7FFE13BD1462182AA9A48D667476 /* AdformAdvertising.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				2B4D1F1957BE4CB69022242ED52067FE /* Pods */,
+				915E47B87DB48210C8F3AB1C272E35B7 /* Products */,
+				327E52482B3D22D655E5AEC20FCE2388 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		86D14F669FB8D4B880A0E5F34FA0116C /* Pods-AddFormTest */ = {
+			isa = PBXGroup;
+			children = (
+				23E5E3F75FEF3EBCC0007B20A206F61A /* Info.plist */,
+				7C80ACA5BA1C90D0C648B0D802F161BC /* Pods-AddFormTest.modulemap */,
+				868D0754A83A82E59EA8DA9800C11404 /* Pods-AddFormTest-acknowledgements.markdown */,
+				A2F366E0F6D2AD0D48C1E2F78156B368 /* Pods-AddFormTest-acknowledgements.plist */,
+				BAA40BB09D662D79C5993827C69E0D8E /* Pods-AddFormTest-dummy.m */,
+				7C768AA1F20C69EF11A1D59B5E1778AA /* Pods-AddFormTest-frameworks.sh */,
+				D3F74BE11B909D6B0E10152E83BDF39E /* Pods-AddFormTest-resources.sh */,
+				F4D1D414A57BD483CF98C7EF5DD9E959 /* Pods-AddFormTest-umbrella.h */,
+				279ADB5B7C3917CDE13C8FFC3FD1C66A /* Pods-AddFormTest.debug.xcconfig */,
+				001ACDE089E8C6177927953B8E521650 /* Pods-AddFormTest.release.xcconfig */,
+			);
+			name = "Pods-AddFormTest";
+			path = "Target Support Files/Pods-AddFormTest";
+			sourceTree = "<group>";
+		};
+		915E47B87DB48210C8F3AB1C272E35B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36915959EDFE4FB1C2AC0D6D5D862FDD /* Pods_AddFormTest.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E71CFF3F7466B13EB7BD45A40FBAEDC0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CE7174BD77BE637A635F7B4F507748D /* Pods-AddFormTest-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		55C3072D3B5A982FB7C5BBD9D10D4F7F /* Pods-AddFormTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0449966985BC1D2037A4E68CF387677 /* Build configuration list for PBXNativeTarget "Pods-AddFormTest" */;
+			buildPhases = (
+				F75C5113C5B0641D91C32F5A29ED20FA /* Sources */,
+				D10336D9532B80C1CC5F245EDF339BCF /* Frameworks */,
+				E71CFF3F7466B13EB7BD45A40FBAEDC0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-AddFormTest";
+			productName = "Pods-AddFormTest";
+			productReference = 36915959EDFE4FB1C2AC0D6D5D862FDD /* Pods_AddFormTest.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 915E47B87DB48210C8F3AB1C272E35B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55C3072D3B5A982FB7C5BBD9D10D4F7F /* Pods-AddFormTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F75C5113C5B0641D91C32F5A29ED20FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCC8948BDA32592D1F25DB15C5067E69 /* Pods-AddFormTest-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		14A0DDDC36EC01F9538C8BAE09B9591B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 001ACDE089E8C6177927953B8E521650 /* Pods-AddFormTest.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AddFormTest/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AddFormTest/Pods-AddFormTest.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AddFormTest;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2275113B5C5439B92DE00AA8C659D589 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 279ADB5B7C3917CDE13C8FFC3FD1C66A /* Pods-AddFormTest.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AddFormTest/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AddFormTest/Pods-AddFormTest.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AddFormTest;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ABC1C622E3A94D5EFA80B6DBB5E64193 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D72E489B59C3A70112D2342F402BD262 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D72E489B59C3A70112D2342F402BD262 /* Debug */,
+				ABC1C622E3A94D5EFA80B6DBB5E64193 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0449966985BC1D2037A4E68CF387677 /* Build configuration list for PBXNativeTarget "Pods-AddFormTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2275113B5C5439B92DE00AA8C659D589 /* Debug */,
+				14A0DDDC36EC01F9538C8BAE09B9591B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
